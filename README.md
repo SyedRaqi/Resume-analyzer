@@ -1,365 +1,262 @@
-# SmartHire AI — Career Intelligence, Reimagined
+<!-- SMART HIRE AI | CINEMATIC README -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:312E81,100:0891B2&height=220&section=header&text=SmartHire%20AI&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Your%20career.%20Your%20potential.%20Your%20next%20move.&descSize=15&descAlignY=58&animation=fadeIn" width="100%" alt="SmartHire AI cinematic banner"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>An AI-powered career intelligence workspace built to help job seekers understand their resumes, identify skill gaps, and make smarter career decisions.</strong>
-</p>
+<img src="assets/smarthire-cinematic-banner.gif" width="100%" alt="SmartHire AI animated cinematic hero banner" />
 
-<p align="center">
-  <a href="https://github.com/SyedRaqi/Resume-analyzer"><img src="https://img.shields.io/badge/PROJECT-SmartHire%20AI-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="SmartHire AI project"/></a>
-  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-06B6D4?style=for-the-badge&logo=react&logoColor=white" alt="React and TypeScript"/>
-  <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/AI-NLP%20%2B%20Matching-8B5CF6?style=for-the-badge" alt="AI and NLP"/>
-</p>
+<br/>
 
-<p align="center">
-  <a href="#-the-vision">The Vision</a> •
-  <a href="#-core-capabilities">Features</a> •
-  <a href="#-technology-stack">Tech Stack</a> •
-  <a href="#-get-started">Get Started</a> •
-  <a href="#-api-overview">API</a>
-</p>
+# SmartHire AI
+
+### CAREER INTELLIGENCE. REENGINEERED.
+
+**Your potential is greater than a resume. Discover what makes you stand out.**
+
+An AI-powered career workspace for resume intelligence, skill-gap discovery, job matching, and smarter career preparation.
+
+<br/>
+
+<a href="https://github.com/SyedRaqi/Resume-analyzer">
+  <img src="https://img.shields.io/badge/EXPLORE%20PROJECT-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Explore project"/>
+</a>
+&nbsp;
+<a href="#features">
+  <img src="https://img.shields.io/badge/DISCOVER%20FEATURES-0891B2?style=for-the-badge&logo=rocket&logoColor=white" alt="Discover features"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/REACT-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+<img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/FASTAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/AI%20%2B%20NLP-8B5CF6?style=flat-square" alt="AI and NLP"/>
+
+</div>
 
 ---
 
-## ✦ The Vision
+<a id="vision"></a>
 
-**Your resume tells your story. SmartHire AI helps you make it stronger.**
+## ◉  THE VISION
 
-The job market is competitive. Job seekers need more than a resume template or a single matching percentage — they need meaningful feedback, a clearer understanding of their strengths, and practical guidance on what to improve.
+The next opportunity shouldn't depend on guesswork.
 
-SmartHire AI brings resume intelligence, job-description matching, skill-gap analysis, and conversational career guidance together in one full-stack application.
+SmartHire AI transforms career preparation into a structured, data-informed process. It helps users understand their resume, compare their skills with job requirements, identify gaps, and get practical guidance.
 
-Instead of treating career preparation as a guessing game, SmartHire AI turns it into a more structured, understandable process.
+**Upload. Understand. Improve. Advance.**
 
-> **Understand your profile. Discover your gaps. Prepare for your next opportunity.**
+<a id="features"></a>
 
-## ◈ Core Capabilities
+## ◈  INTELLIGENCE MODULES
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📄 Resume Intelligence</h3>
-      Extract text from PDF resumes and evaluate skills, education, projects, experience, and document structure using explainable scoring.
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎯 Job Description Matching</h3>
-      Compare a resume with a job description using skill coverage and TF-IDF cosine similarity to produce a matching assessment.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧩 Skill-Gap Detection</h3>
-      Identify skills present in a resume, highlight missing requirements, and help users prioritize areas for improvement.
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 AI Career Assistant</h3>
-      Get contextual career guidance through an assistant that supports OpenAI integration and a local fallback for common questions.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔐 Secure User Workspace</h3>
-      Support registration, authentication, protected API operations, and user-specific resume and chat workflows.
-    </td>
-    <td width="50%" valign="top">
-      <h3>📈 Career Progress Tools</h3>
-      Review resume analyses, revisit job-match history, update profile information, and work on improvements through a responsive interface.
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 01 / Resume Intelligence
+
+Extract and analyze resume content, with component-based assessments covering skills, education, projects, experience, and structure.
+
+</td>
+<td width="50%" valign="top">
+
+### 02 / Job Match Engine
+
+Compare resumes with job descriptions using skill coverage and TF-IDF cosine similarity.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 / Skill-Gap Discovery
+
+Identify matching and missing skills to help users understand where additional preparation may be valuable.
+
+</td>
+<td width="50%" valign="top">
+
+### 04 / AI Career Assistant
+
+Get career guidance through optional OpenAI integration, with a local fallback for supported common questions.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 05 / Personal Workspace
+
+Manage accounts, resumes, analysis history, job matches, conversations, and profile information.
+
+</td>
+<td width="50%" valign="top">
+
+### 06 / Explainable Results
+
+Keep resume assessment components and job-matching signals visible instead of presenting every result as an unexplained number.
+
+</td>
+</tr>
 </table>
-
-## ⌁ How It Works
-
-<p align="center">
-  <img src="https://img.shields.io/badge/01-Upload%20Resume-312E81?style=for-the-badge" alt="Step 1"/>
-  <img src="https://img.shields.io/badge/02-Analyze%20Profile-4338CA?style=for-the-badge" alt="Step 2"/>
-  <img src="https://img.shields.io/badge/03-Match%20a%20Job-0E7490?style=for-the-badge" alt="Step 3"/>
-  <img src="https://img.shields.io/badge/04-Improve%20Your%20Skills-0F766E?style=for-the-badge" alt="Step 4"/>
-</p>
-
-1. **Upload:** Provide a supported PDF resume.
-2. **Analyze:** Extract resume text and review the component-based assessment.
-3. **Compare:** Paste a job description to identify matching and missing skills.
-4. **Improve:** Use the results and career assistant to plan practical next steps.
 
 ---
 
-## ⚙️ Technology Stack
+## ⌬  THE EXPERIENCE
 
-| Layer | Technologies |
-|---|---|
-| Frontend | React, TypeScript, Vite, React Router |
-| UI | Custom responsive CSS, Lucide React |
-| Backend | Python, FastAPI, Pydantic |
-| Data access | SQLAlchemy |
-| Local database | SQLite |
-| Production database option | PostgreSQL |
-| Resume processing | PyMuPDF |
-| Matching | TF-IDF, cosine similarity, skill-overlap scoring |
-| Authentication | JWT-based authentication |
-| AI assistant | Optional OpenAI API integration with local fallback |
-| Deployment support | Docker Compose configuration for PostgreSQL |
+<div align="center">
 
-## 🏗️ Architecture
+| PHASE | ACTION | OUTCOME |
+|:---:|---|---|
+| 01 | Upload your resume | Extracted resume content |
+| 02 | Analyze your profile | Component-based feedback |
+| 03 | Compare a job description | Matching and missing skills |
+| 04 | Explore your next steps | More focused career preparation |
+
+</div>
+
+## ⟁  UNDER THE HOOD
 
 ```mermaid
-flowchart TD
-    A[User] --> B[React + TypeScript Frontend]
-    B --> C[Authenticated API Client]
-    C --> D[FastAPI Backend]
-    D --> E[Authentication & User Services]
-    D --> F[Resume Analysis Service]
-    D --> G[Job Matching Service]
-    D --> H[Career Chatbot Service]
-    E --> I[(SQLite / PostgreSQL)]
-    F --> I
-    G --> I
-    H --> I
+flowchart LR
+    U([USER]) --> UI[React + TypeScript]
+    UI --> API[FastAPI]
+    API --> AUTH[Authentication]
+    API --> RES[Resume Intelligence]
+    API --> JOB[Job Match Engine]
+    API --> AI[Career Assistant]
+    AUTH --> DB[(SQLite / PostgreSQL)]
+    RES --> DB
+    JOB --> DB
+    AI --> DB
+
+    style U fill:#312e81,color:#fff,stroke:#818cf8
+    style UI fill:#172554,color:#fff,stroke:#60a5fa
+    style API fill:#134e4a,color:#fff,stroke:#5eead4
+    style AUTH fill:#1e1b4b,color:#fff,stroke:#a78bfa
+    style RES fill:#1e1b4b,color:#fff,stroke:#a78bfa
+    style JOB fill:#1e1b4b,color:#fff,stroke:#a78bfa
+    style AI fill:#1e1b4b,color:#fff,stroke:#a78bfa
+    style DB fill:#164e63,color:#fff,stroke:#67e8f9
 ```
 
-### Project Structure
+### TECHNOLOGY MATRIX
 
-```text
-Resume-analyzer/
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── database.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   ├── deps.py
-│   │   └── services/
-│   │       ├── resume_service.py
-│   │       └── chatbot_service.py
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── App.tsx
-│   │   ├── styles.css
-│   │   ├── lib/
-│   │   │   └── api.ts
-│   │   └── components/
-│   │       └── Logo.tsx
-│   └── .env.example
-├── uploads/
-├── docker-compose.yml
-└── README.md
-```
+| SYSTEM | TECHNOLOGY |
+|---|---|
+| Interface | React, TypeScript, Vite, React Router |
+| Visual layer | Responsive CSS, Lucide React |
+| API layer | Python, FastAPI, Pydantic |
+| Persistence | SQLAlchemy, SQLite, PostgreSQL option |
+| Document processing | PyMuPDF |
+| Matching algorithms | TF-IDF, cosine similarity, skill overlap |
+| Security | JWT-based authentication |
+| Conversational AI | Optional OpenAI integration and local fallback |
 
-*The tree above highlights the main files documented for the project; additional files and routes may exist in the repository.*
+---
 
-## 🚀 Get Started
+## ⌘  RUN IT LOCALLY
 
-Run SmartHire AI locally on Windows using PowerShell.
+### Requirements
 
-### Prerequisites
-
-- Python 3.11 or later
-- Node.js 20 or later
-- npm 10 or later
+- Python 3.11+
+- Node.js 20+
+- npm 10+
 - Git
 
-### 1. Clone the repository
+### 01 — Clone
 
 ```powershell
 git clone https://github.com/SyedRaqi/Resume-analyzer.git
 cd Resume-analyzer
 ```
 
-### 2. Configure the backend
+### 02 — Start the backend
 
 ```powershell
 cd backend
-
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
-
-python -m pip install --upgrade pip
 pip install -r requirements.txt
-
 Copy-Item .env.example .env
+python -m uvicorn app.main:app --reload --port 8000
 ```
 
-Open `backend/.env` and configure the required settings. SQLite is the default for local development; configure `DATABASE_URL` if you intend to use PostgreSQL.
+API documentation: http://localhost:8000/docs
 
-Start the API:
+### 03 — Start the frontend
 
-```powershell
-python -m uvicorn app.main:app --host 127.0.0.1 --reload --port 8000
-```
-
-Once the server starts, open:
-
-- API documentation: http://localhost:8000/docs
-- API root: http://localhost:8000/
-
-### 3. Configure the frontend
-
-Open a **second PowerShell terminal** from the repository root:
+Open a second terminal from the project root:
 
 ```powershell
 cd frontend
-
 npm install
-
 Copy-Item .env.example .env
-
 npm run dev
 ```
 
-Open the local URL printed by Vite, normally:
+Open the local URL printed by Vite, usually http://localhost:5173.
 
-http://localhost:5173
+Configure any required API base URL using the variable documented in `frontend/.env.example`.
 
-If your frontend environment file requires an API base URL, set it to your locally running backend using the exact variable name documented in `frontend/.env.example`.
+### 04 — Optional AI configuration
 
-### 4. Enable the AI assistant (optional)
-
-Add your own API key to `backend/.env`:
+Add your own API key to `backend/.env` if you want to enable the OpenAI-backed assistant:
 
 ```dotenv
 OPENAI_API_KEY=your-api-key
 OPENAI_MODEL=gpt-4o-mini
 ```
 
-Restart the backend after changing environment variables.
-
-**Security:** Keep API keys in environment variables on the backend. Never commit `.env` files, production credentials, or private tokens to GitHub.
-
-Without an API key, the application can use its documented local fallback for supported common career questions.
-
-### 5. Optional PostgreSQL setup
-
-If you want to run PostgreSQL through the supplied Docker Compose configuration:
-
-```powershell
-docker compose up -d postgres
-```
-
-Configure `DATABASE_URL` in `backend/.env` using the connection details defined by your Compose configuration. Install the PostgreSQL driver specified by your backend dependencies if required.
+Never commit secrets or `.env` files to GitHub.
 
 ---
 
-## 🧠 Matching & Scoring Methodology
+## ◈  MATCHING METHODOLOGY
 
-SmartHire AI uses transparent, rule-based and text-similarity techniques to help users understand their results.
-
-| Component | Approach |
+| COMPONENT | APPROACH |
 |---|---|
-| Resume extraction | PyMuPDF-based PDF text extraction |
-| Resume assessment | Component scores for skills, education, projects, experience, and structure |
-| Skill matching | Case-insensitive matching against a curated skill vocabulary |
+| Resume extraction | PDF text extraction with PyMuPDF |
+| Resume assessment | Component scores combined into an overall coaching score |
+| Skill detection | Curated vocabulary and case-insensitive matching |
 | Job similarity | TF-IDF vectorization and cosine similarity |
-| Overall job-match score | Weighted combination of skill coverage (65%) and text similarity (35%) |
-| Career chat | Optional LLM integration with deterministic fallback guidance |
+| Job-match calculation | 65% skill coverage + 35% text similarity |
+| Career guidance | Optional LLM integration or deterministic fallback |
 
-The resume assessment combines component scores into an overall coaching score. The job-match calculation keeps skill coverage and text similarity as separate components.
+These scores are coaching signals, not official ATS scores or guarantees of hiring outcomes.
 
-**Important:** These scores are coaching indicators, not official ATS scores, hiring decisions, or guarantees of interview selection. Results depend on resume quality, extracted text, and the supplied job description.
+## ⛨  ENGINEERING & SECURITY
 
-## 🔌 API Overview
+- JWT-based authentication and protected API workflows
+- User-specific resume and conversation operations
+- Environment-based configuration for secrets
+- SQLite for local development and a PostgreSQL option
+- PDF upload and processing workflow
 
-The backend exposes REST endpoints for the following workflows.
+Before production deployment, verify file validation, access controls, persistent storage, CORS, token handling, rate limiting, and email delivery for password resets.
 
-| Feature | Method | Endpoint |
-|---|---|---|
-| Registration | POST | `/api/auth/register` |
-| Login | POST | `/api/auth/login` |
-| Current user | GET | `/api/auth/me` |
-| Logout | POST | `/api/auth/logout` |
-| Request password reset | POST | `/api/auth/forgot-password` |
-| Reset password | POST | `/api/auth/reset-password` |
-| Upload resume | POST | `/api/resumes/upload` |
-| List resumes | GET | `/api/resumes` |
-| Delete resume | DELETE | `/api/resumes/{id}` |
-| Analyze resume | POST | `/api/resumes/{id}/analyze` |
-| Retrieve analysis | GET | `/api/resumes/{id}/analysis` |
-| Match job description | POST | `/api/jobs/match` |
-| Job-match history | GET | `/api/jobs/history` |
-| Send chat message | POST | `/api/chat` |
-| List conversations | GET | `/api/chat/conversations` |
-| Retrieve conversation | GET | `/api/chat/conversations/{id}` |
-| User profile | GET / PUT | `/api/users/profile` |
+## ⌁  ROADMAP
 
-Use the interactive API documentation at `/docs` to inspect request bodies, authentication requirements, and response formats.
-
-## 🧪 Testing & Verification
-
-Run the backend syntax check from the repository root:
-
-```powershell
-python -m compileall backend\app
-```
-
-Build and type-check the frontend:
-
-```powershell
-cd frontend
-npm run build
-```
-
-### Suggested end-to-end test
-
-- [ ] Register a new account and sign in.
-- [ ] Upload a text-based PDF resume.
-- [ ] Open the generated resume analysis.
-- [ ] Review component scores and improvement suggestions.
-- [ ] Paste a job description and run a match.
-- [ ] Review matching and missing skills.
-- [ ] Update the user profile.
-- [ ] Test the career assistant with and without an OpenAI key.
-- [ ] Verify that protected endpoints require authentication.
-- [ ] Test password-reset flows and configure an email provider before production use.
-- [ ] Verify that one user's private records cannot be accessed by another user.
-
-## 🔒 Security & Production Considerations
-
-Before deploying a public instance:
-
-- Keep API secrets and database credentials out of source control.
-- Restrict access to private resume files and user-specific records.
-- Validate file types, file sizes, and uploaded content.
-- Configure production CORS origins and HTTPS.
-- Use secure token handling and appropriate token expiration.
-- Configure a real email provider for password-reset delivery.
-- Use persistent production database and file storage.
-- Add rate limiting, structured logging, backups, and error monitoring.
-- Review the application's authentication, authorization, and data-retention policies.
-
-For production deployment, PostgreSQL is a more suitable default than an ephemeral SQLite file on many hosting platforms. Uploaded files and other persistent user data also need durable storage.
-
-## 🛣️ Future Roadmap
-
-- [ ] Versioned skills taxonomy and semantic embeddings
-- [ ] More advanced resume-improvement recommendations
-- [ ] Human-reviewed suggestions and improved PDF export
-- [ ] Integration with curated job listing sources
-- [ ] Background processing for resume analysis
-- [ ] Persistent object storage and file lifecycle management
-- [ ] Automated test coverage and CI/CD
-- [ ] Production observability and deployment hardening
-
-## 🎓 Built as a Full-Stack AI Project
-
-SmartHire AI brings together frontend engineering, API development, database design, authentication, natural-language processing, text similarity, and practical AI integration.
-
-It is designed to demonstrate how an AI-assisted career product can be built around understandable results rather than a single unexplained score.
+- [ ] Semantic skill matching with embeddings
+- [ ] Enhanced resume-improvement recommendations
+- [ ] Curated job-source integration
+- [ ] Background processing and durable file storage
+- [ ] Automated tests and continuous integration
+- [ ] Production monitoring and deployment hardening
 
 ---
 
-<p align="center">
-  <strong>Build your skills. Strengthen your story. Move forward with confidence.</strong>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/SyedRaqi/Resume-analyzer"><strong>Explore the Repository →</strong></a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:312E81,100:0B1020&height=120&section=footer" width="100%" alt="Blue and violet cinematic footer"/>
 
-<p align="center">
-  <sub>Created by <a href="https://github.com/SyedRaqi">Syed Raqi</a> · SmartHire AI</sub>
-</p>
+### ENGINEER YOUR NEXT OPPORTUNITY.
+
+**SmartHire AI** · Built by [Syed Raqi](https://github.com/SyedRaqi)
+
+<a href="https://github.com/SyedRaqi/Resume-analyzer">SOURCE CODE</a>
+
+<sub>Understand your profile. Discover your potential. Keep moving forward.</sub>
+
+</div>
