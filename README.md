@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner: your resume, decoded" />
+<img src="smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner: your resume, decoded" />
 
 <a href="https://github.com/SyedRaqi/Resume-analyzer">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Hiring+is+a+black+box.+Let%27s+open+it.;Your+resume+has+a+story.+We+check+if+it+gets+read.;Paste+a+job+post.+See+exactly+where+you+stand.;Stop+guessing.+Start+closing+gaps." alt="Typing animation" />
@@ -37,7 +37,7 @@
 Most people send out resumes and hope. SmartHire AI is a control room for that moment: it reads your resume, lines it up against the job you actually want, and points at the exact skills that are missing, so every application gets a little sharper than the last.
 
 <div align="center">
-<img src="assets/smarthire-pipeline.svg" width="92%" alt="Animated flow: Drop it, Decode, Compare, Level up" />
+<img src="smarthire-pipeline.svg" width="92%" alt="Animated flow: Drop it, Decode, Compare, Level up" />
 </div>
 
 ## 🧊 Flight Modules
@@ -148,7 +148,7 @@ flowchart LR
 ## 🚀 Launch Sequence
 
 <div align="center">
-<img src="assets/smarthire-launch.svg" width="92%" alt="Animated launch sequence: clone, backend, frontend, live" />
+<img src="smarthire-launch.svg" width="92%" alt="Animated launch sequence: clone, backend, frontend, live" />
 </div>
 
 ### 🧾 Pre-flight checklist
