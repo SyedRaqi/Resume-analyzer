@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner" />
+<img src="smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner" />
 
 <a href="https://github.com/SyedRaqi/Resume-analyzer">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Upload+your+resume.;Compare+it+with+any+job+description.;See+your+skill+gaps+instantly.;Engineer+your+next+opportunity." alt="Typing animation" />
@@ -37,7 +37,7 @@
 SmartHire AI turns career preparation into a structured, data-informed process. Understand your resume, compare your skills with real job requirements, find the gaps, and get practical guidance, all in one workspace.
 
 <div align="center">
-<img src="assets/smarthire-pipeline.svg" width="92%" alt="Animated flow: Upload, Analyze, Match, Advance" />
+<img src="smarthire-pipeline.svg" width="92%" alt="Animated flow: Upload, Analyze, Match, Advance" />
 </div>
 
 ## 🧊 Intelligence Modules
