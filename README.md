@@ -42,48 +42,27 @@ Most people send out resumes and hope. SmartHire AI is a control room for that m
 
 ## 🧊 Flight Modules
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<div align="center">
+<img src="smarthire-modules.svg" width="96%" alt="Six animated SmartHire AI flight modules" />
+</div>
 
-### 📡 Resume Radar
-Pulls the text out of your PDF and grades it in parts: skills, education, projects, experience, and structure. No single mystery score.
+<br/>
 
-</td>
-<td width="33%" valign="top">
+<details open>
+<summary><b>📋 Module spec sheet: what each one does and what powers it</b></summary>
 
-### ⚖️ Job Fit Scale
-Weighs your resume against a job post using skill coverage plus TF-IDF cosine similarity, so the match is more than keyword luck.
+<br/>
 
-</td>
-<td width="33%" valign="top">
+| MODULE | WHAT YOU GET | POWERED BY |
+|---|---|---|
+| 📡 **Resume Radar** | Your PDF's text, graded in parts: skills, education, projects, experience, structure | PyMuPDF + component scoring |
+| ⚖️ **Job Fit Scale** | A match against any job post, built on skill coverage plus wording overlap | Skill overlap, TF-IDF, cosine similarity |
+| 🕳️ **Gap Finder** | Two clear lists: skills you have, skills you're missing | Curated skill vocabulary |
+| 💬 **Co-Pilot** | Career answers on demand, with or without an API key | Optional OpenAI + local fallback |
+| 🧰 **Your Hangar** | One private workspace for resumes, past analyses, matches, chats, and profile | SQLAlchemy, JWT auth |
+| 🪟 **Glass-Box Scoring** | Scores that show their ingredients, so you see *why* a number moved | Component-level breakdowns |
 
-### 🕳️ Gap Finder
-Splits skills into "you have it" and "you're missing it," turning a vague worry into a short study list.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 💬 Co-Pilot
-Ask career questions and get answers from OpenAI when you add a key, or from a built-in local fallback that handles common ones offline.
-
-</td>
-<td width="33%" valign="top">
-
-### 🧰 Your Hangar
-Accounts, uploaded resumes, past analyses, job matches, chats, and your profile, all saved in one private workspace.
-
-</td>
-<td width="33%" valign="top">
-
-### 🪟 Glass-Box Scoring
-Every score shows its ingredients. You see why a number moved, not just that it did.
-
-</td>
-</tr>
-</table>
+</details>
 
 ## ⚙️ Engine Room
 
@@ -131,19 +110,21 @@ flowchart LR
 ## 🧪 The Scoring Recipe
 
 <div align="center">
-
-| 🥄 STEP | 🔬 HOW IT'S DONE |
-|---|---|
-| Read the PDF | Text extraction with PyMuPDF |
-| Grade the resume | Component scores blended into one coaching score |
-| Spot the skills | Curated vocabulary, case-insensitive matching |
-| Compare the wording | TF-IDF vectors and cosine similarity |
-| **Final job-fit number** | **65% skill coverage + 35% text similarity** |
-| Offer advice | Optional LLM, or a deterministic fallback |
-
+<img src="smarthire-recipe.svg" width="94%" alt="Job-fit blend: 65% skill coverage plus 35% text similarity" />
 </div>
 
-> 🧭 Treat these as a compass, not a verdict. They are coaching signals, not official ATS scores, and they can't promise a hiring outcome.
+### 🍳 Recipe card
+
+| # | 🥄 STEP | 🧂 WHAT HAPPENS |
+|:-:|---|---|
+| 1 | **Read** | PyMuPDF pulls the text out of your PDF |
+| 2 | **Grade** | Component scores are blended into one overall coaching score |
+| 3 | **Spot** | A curated skill vocabulary is matched case-insensitively |
+| 4 | **Compare** | TF-IDF vectors and cosine similarity measure how closely the wording lines up |
+| 5 | **Blend** | **65% skill coverage + 35% text similarity** gives the job-fit number |
+| 6 | **Advise** | Optional LLM guidance, or a deterministic fallback when there's no key |
+
+> 🧭 **Chef's note:** treat the result as a compass, not a verdict. These are coaching signals, not official ATS scores, and they can't promise a hiring outcome.
 
 ## 🚀 Launch Sequence
 
