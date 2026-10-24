@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner: your resume, decoded" />
+<img src="assets/smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner: your resume, decoded" />
 
 <a href="https://github.com/SyedRaqi/Resume-analyzer">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Hiring+is+a+black+box.+Let%27s+open+it.;Your+resume+has+a+story.+We+check+if+it+gets+read.;Paste+a+job+post.+See+exactly+where+you+stand.;Stop+guessing.+Start+closing+gaps." alt="Typing animation" />
@@ -37,7 +37,7 @@
 Most people send out resumes and hope. SmartHire AI is a control room for that moment: it reads your resume, lines it up against the job you actually want, and points at the exact skills that are missing, so every application gets a little sharper than the last.
 
 <div align="center">
-<img src="smarthire-pipeline.svg" width="92%" alt="Animated flow: Drop it, Decode, Compare, Level up" />
+<img src="assets/smarthire-pipeline.svg" width="92%" alt="Animated flow: Drop it, Decode, Compare, Level up" />
 </div>
 
 ## 🧊 Flight Modules
@@ -147,19 +147,39 @@ flowchart LR
 
 ## 🚀 Launch Sequence
 
-**Pre-flight checklist:** Python 3.11+ · Node.js 20+ · npm 10+ · Git
+<div align="center">
+<img src="assets/smarthire-launch.svg" width="92%" alt="Animated launch sequence: clone, backend, frontend, live" />
+</div>
 
-<details open>
-<summary><b>T-04 · Grab the code</b></summary>
+### 🧾 Pre-flight checklist
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+"/>
+<img src="https://img.shields.io/badge/NODE.JS-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 20+"/>
+<img src="https://img.shields.io/badge/NPM-10%2B-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm 10+"/>
+<img src="https://img.shields.io/badge/GIT-READY-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+
+</div>
+
+### 📍 Where everything lands
+
+| 🛰️ WHAT | 🔗 WHERE |
+|---|---|
+| Backend API | `http://localhost:8000` |
+| Live API docs | `http://localhost:8000/docs` |
+| Frontend app | `http://localhost:5173` (or the URL Vite prints) |
+
+> 🧑‍🚀 **Ground control tip:** the backend and frontend each keep a terminal busy, so open two.
+
+### 🔥 Stage 1 · Ignition: get the code
 
 ```powershell
 git clone https://github.com/SyedRaqi/Resume-analyzer.git
 cd Resume-analyzer
 ```
-</details>
 
-<details open>
-<summary><b>T-03 · Fire up the backend</b></summary>
+### ⚙️ Stage 2 · Engine burn: start the backend
 
 ```powershell
 cd backend
@@ -170,13 +190,11 @@ Copy-Item .env.example .env
 python -m uvicorn app.main:app --reload --port 8000
 ```
 
-Peek at the live API docs: http://localhost:8000/docs
-</details>
+✅ Success looks like: the API docs open at http://localhost:8000/docs.
 
-<details open>
-<summary><b>T-02 · Light up the frontend</b></summary>
+### 🌠 Stage 3 · Ascent: start the frontend
 
-In a second terminal, from the project root:
+In a **second terminal**, from the project root:
 
 ```powershell
 cd frontend
@@ -185,11 +203,16 @@ Copy-Item .env.example .env
 npm run dev
 ```
 
-Open the URL Vite prints, usually http://localhost:5173. If the app needs an API address, set it using the variable named in `frontend/.env.example`.
-</details>
+If the app needs an API address, set it using the variable named in `frontend/.env.example`.
+
+### 🛸 Stage 4 · Orbit: open it
+
+Visit the URL Vite prints, usually http://localhost:5173. Upload a resume and you're flying.
 
 <details>
-<summary><b>T-01 · Optional: wake the Co-Pilot</b></summary>
+<summary><b>🤖 Bonus stage: wake the Co-Pilot (optional)</b></summary>
+
+<br/>
 
 Drop your own key into `backend/.env` to switch on the OpenAI-powered assistant:
 
@@ -199,6 +222,7 @@ OPENAI_MODEL=gpt-4o-mini
 ```
 
 🔐 Keys stay on your machine. Never commit secrets or `.env` files to GitHub.
+
 </details>
 
 ## 🔒 Safety Checks
