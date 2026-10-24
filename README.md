@@ -1,20 +1,20 @@
-<!-- SMART HIRE AI | 3D ANIMATED README -->
+<!-- SMART HIRE AI | MISSION CONTROL README -->
 
 <div align="center">
 
-<img src="smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner" />
+<img src="smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner: your resume, decoded" />
 
 <a href="https://github.com/SyedRaqi/Resume-analyzer">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Upload+your+resume.;Compare+it+with+any+job+description.;See+your+skill+gaps+instantly.;Engineer+your+next+opportunity." alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Hiring+is+a+black+box.+Let%27s+open+it.;Your+resume+has+a+story.+We+check+if+it+gets+read.;Paste+a+job+post.+See+exactly+where+you+stand.;Stop+guessing.+Start+closing+gaps." alt="Typing animation" />
 </a>
 
 <br/>
 
-<a href="https://github.com/SyedRaqi/Resume-analyzer"><img src="https://img.shields.io/badge/EXPLORE%20PROJECT-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Explore project"/></a>
+<a href="https://github.com/SyedRaqi/Resume-analyzer"><img src="https://img.shields.io/badge/SEE%20THE%20CODE-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="See the code"/></a>
 &nbsp;
-<a href="#-intelligence-modules"><img src="https://img.shields.io/badge/DISCOVER%20FEATURES-0891B2?style=for-the-badge&logo=rocket&logoColor=white" alt="Discover features"/></a>
+<a href="#-flight-modules"><img src="https://img.shields.io/badge/WHAT%20IT%20DOES-0891B2?style=for-the-badge&logo=rocket&logoColor=white" alt="What it does"/></a>
 &nbsp;
-<a href="#-run-it-locally"><img src="https://img.shields.io/badge/RUN%20LOCALLY-DB2777?style=for-the-badge&logo=terminal&logoColor=white" alt="Run locally"/></a>
+<a href="#-launch-sequence"><img src="https://img.shields.io/badge/LAUNCH%20IT-DB2777?style=for-the-badge&logo=terminal&logoColor=white" alt="Launch it"/></a>
 
 <br/><br/>
 
@@ -30,62 +30,62 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0891B2,50:6366F1,100:DB2777&height=3" width="100%" alt="divider"/>
 
-## 🌌 The Vision
+## 🛰️ Mission Brief
 
-> **The next opportunity shouldn't depend on guesswork.**
+> **You can't fix what you can't see.**
 
-SmartHire AI turns career preparation into a structured, data-informed process. Understand your resume, compare your skills with real job requirements, find the gaps, and get practical guidance, all in one workspace.
+Most people send out resumes and hope. SmartHire AI is a control room for that moment: it reads your resume, lines it up against the job you actually want, and points at the exact skills that are missing, so every application gets a little sharper than the last.
 
 <div align="center">
-<img src="smarthire-pipeline.svg" width="92%" alt="Animated flow: Upload, Analyze, Match, Advance" />
+<img src="smarthire-pipeline.svg" width="92%" alt="Animated flow: Drop it, Decode, Compare, Level up" />
 </div>
 
-## 🧊 Intelligence Modules
+## 🧊 Flight Modules
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 📄 Resume Intelligence
-Extracts and analyzes resume content with component assessments for skills, education, projects, experience, and structure.
+### 📡 Resume Radar
+Pulls the text out of your PDF and grades it in parts: skills, education, projects, experience, and structure. No single mystery score.
 
 </td>
 <td width="33%" valign="top">
 
-### 🎯 Job Match Engine
-Compares resumes with job descriptions using skill coverage and TF-IDF cosine similarity.
+### ⚖️ Job Fit Scale
+Weighs your resume against a job post using skill coverage plus TF-IDF cosine similarity, so the match is more than keyword luck.
 
 </td>
 <td width="33%" valign="top">
 
-### 🧭 Skill-Gap Discovery
-Shows matching and missing skills so you know where to prepare next.
+### 🕳️ Gap Finder
+Splits skills into "you have it" and "you're missing it," turning a vague worry into a short study list.
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-### 🤖 AI Career Assistant
-Career guidance via optional OpenAI integration, with a local fallback for common questions.
+### 💬 Co-Pilot
+Ask career questions and get answers from OpenAI when you add a key, or from a built-in local fallback that handles common ones offline.
 
 </td>
 <td width="33%" valign="top">
 
-### 🗂️ Personal Workspace
-Accounts, resumes, analysis history, job matches, conversations, and profile in one place.
+### 🧰 Your Hangar
+Accounts, uploaded resumes, past analyses, job matches, chats, and your profile, all saved in one private workspace.
 
 </td>
 <td width="33%" valign="top">
 
-### 🔍 Explainable Results
-Score components and matching signals stay visible instead of hiding behind one unexplained number.
+### 🪟 Glass-Box Scoring
+Every score shows its ingredients. You see why a number moved, not just that it did.
 
 </td>
 </tr>
 </table>
 
-## 🛰️ Under the Hood
+## ⚙️ Engine Room
 
 ```mermaid
 flowchart LR
@@ -111,46 +111,46 @@ flowchart LR
 ```
 
 <details>
-<summary><b>⚙️ Technology matrix (click to expand)</b></summary>
+<summary><b>🔩 Open the parts bin: full tech stack</b></summary>
 
 <br/>
 
-| SYSTEM | TECHNOLOGY |
+| PART | WHAT'S INSIDE |
 |---|---|
-| Interface | React, TypeScript, Vite, React Router |
-| Visual layer | Responsive CSS, Lucide React |
-| API layer | Python, FastAPI, Pydantic |
-| Persistence | SQLAlchemy, SQLite, PostgreSQL option |
-| Document processing | PyMuPDF |
-| Matching algorithms | TF-IDF, cosine similarity, skill overlap |
-| Security | JWT-based authentication |
-| Conversational AI | Optional OpenAI integration and local fallback |
+| Cockpit (UI) | React, TypeScript, Vite, React Router |
+| Paint job | Responsive CSS, Lucide React |
+| Brain (API) | Python, FastAPI, Pydantic |
+| Memory | SQLAlchemy, SQLite, PostgreSQL option |
+| PDF reader | PyMuPDF |
+| Matchmaking math | TF-IDF, cosine similarity, skill overlap |
+| Locks | JWT-based authentication |
+| Voice | Optional OpenAI integration and local fallback |
 
 </details>
 
-## 🧮 Matching Methodology
+## 🧪 The Scoring Recipe
 
 <div align="center">
 
-| 🧩 COMPONENT | 🔬 APPROACH |
+| 🥄 STEP | 🔬 HOW IT'S DONE |
 |---|---|
-| Resume extraction | PDF text extraction with PyMuPDF |
-| Resume assessment | Component scores combined into an overall coaching score |
-| Skill detection | Curated vocabulary and case-insensitive matching |
-| Job similarity | TF-IDF vectorization and cosine similarity |
-| **Job-match score** | **65% skill coverage + 35% text similarity** |
-| Career guidance | Optional LLM integration or deterministic fallback |
+| Read the PDF | Text extraction with PyMuPDF |
+| Grade the resume | Component scores blended into one coaching score |
+| Spot the skills | Curated vocabulary, case-insensitive matching |
+| Compare the wording | TF-IDF vectors and cosine similarity |
+| **Final job-fit number** | **65% skill coverage + 35% text similarity** |
+| Offer advice | Optional LLM, or a deterministic fallback |
 
 </div>
 
-> ⚠️ These scores are coaching signals, not official ATS scores or guarantees of hiring outcomes.
+> 🧭 Treat these as a compass, not a verdict. They are coaching signals, not official ATS scores, and they can't promise a hiring outcome.
 
-## 🚀 Run It Locally
+## 🚀 Launch Sequence
 
-**Requirements:** Python 3.11+ · Node.js 20+ · npm 10+ · Git
+**Pre-flight checklist:** Python 3.11+ · Node.js 20+ · npm 10+ · Git
 
 <details open>
-<summary><b>01 · Clone</b></summary>
+<summary><b>T-04 · Grab the code</b></summary>
 
 ```powershell
 git clone https://github.com/SyedRaqi/Resume-analyzer.git
@@ -159,7 +159,7 @@ cd Resume-analyzer
 </details>
 
 <details open>
-<summary><b>02 · Start the backend</b></summary>
+<summary><b>T-03 · Fire up the backend</b></summary>
 
 ```powershell
 cd backend
@@ -170,13 +170,13 @@ Copy-Item .env.example .env
 python -m uvicorn app.main:app --reload --port 8000
 ```
 
-API docs: http://localhost:8000/docs
+Peek at the live API docs: http://localhost:8000/docs
 </details>
 
 <details open>
-<summary><b>03 · Start the frontend</b></summary>
+<summary><b>T-02 · Light up the frontend</b></summary>
 
-Open a second terminal from the project root:
+In a second terminal, from the project root:
 
 ```powershell
 cd frontend
@@ -185,47 +185,47 @@ Copy-Item .env.example .env
 npm run dev
 ```
 
-Open the URL printed by Vite, usually http://localhost:5173. Set the API base URL using the variable documented in `frontend/.env.example`.
+Open the URL Vite prints, usually http://localhost:5173. If the app needs an API address, set it using the variable named in `frontend/.env.example`.
 </details>
 
 <details>
-<summary><b>04 · Optional AI configuration</b></summary>
+<summary><b>T-01 · Optional: wake the Co-Pilot</b></summary>
 
-Add your own key to `backend/.env` to enable the OpenAI-backed assistant:
+Drop your own key into `backend/.env` to switch on the OpenAI-powered assistant:
 
 ```dotenv
 OPENAI_API_KEY=your-api-key
 OPENAI_MODEL=gpt-4o-mini
 ```
 
-🔐 Never commit secrets or `.env` files to GitHub.
+🔐 Keys stay on your machine. Never commit secrets or `.env` files to GitHub.
 </details>
 
-## 🛡️ Engineering & Security
+## 🔒 Safety Checks
 
-- 🔑 JWT-based authentication and protected API workflows
-- 👤 User-specific resume and conversation operations
-- 🌱 Environment-based configuration for secrets
-- 🗄️ SQLite for local development, PostgreSQL option
-- 📑 PDF upload and processing workflow
+- 🔑 JWT-based login, with protected API routes
+- 👤 Resume and chat actions are tied to the signed-in user
+- 🌱 Secrets live in environment variables, not in code
+- 🗄️ SQLite for easy local work, PostgreSQL when you need more
+- 📑 A complete PDF upload-and-processing pipeline
 
-> Before production deployment, verify file validation, access controls, persistent storage, CORS, token handling, rate limiting, and email delivery for password resets.
+> ⚠️ Before going public, double-check file validation, access controls, persistent storage, CORS, token handling, rate limiting, and password-reset email delivery.
 
-## 🗺️ Roadmap
+## 🌠 Next Launches
 
-- [ ] Semantic skill matching with embeddings
-- [ ] Enhanced resume-improvement recommendations
-- [ ] Curated job-source integration
+- [ ] Smarter skill matching with embeddings, so related skills count too
+- [ ] Sharper, more specific resume-improvement tips
+- [ ] Pull in curated job listings
 - [ ] Background processing and durable file storage
 - [ ] Automated tests and continuous integration
 - [ ] Production monitoring and deployment hardening
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:6366F1,100:DB2777&height=140&section=footer&text=ENGINEER%20YOUR%20NEXT%20OPPORTUNITY&fontColor=ffffff&fontSize=24&fontAlignY=70" width="100%" alt="Animated footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:6366F1,100:DB2777&height=140&section=footer&text=OPEN%20THE%20BLACK%20BOX&fontColor=ffffff&fontSize=26&fontAlignY=70" width="100%" alt="Footer: open the black box"/>
 
-**SmartHire AI** · Built by [Syed Raqi](https://github.com/SyedRaqi) · [⭐ Star the repo](https://github.com/SyedRaqi/Resume-analyzer)
+**SmartHire AI** · Built by [Syed Raqi](https://github.com/SyedRaqi) · [⭐ Star it if it helped](https://github.com/SyedRaqi/Resume-analyzer)
 
-<sub>Understand your profile. Discover your potential. Keep moving forward.</sub>
+<sub>See your profile clearly. Know your gaps. Apply with confidence.</sub>
 
 </div>
