@@ -28,7 +28,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0891B2,50:6366F1,100:DB2777&height=3" width="100%" alt="divider"/>
+<img src="smarthire-orbit.svg" width="100%" alt="Rocket flying past small planets" />
 
 ## 🛰️ Mission Brief
 
@@ -64,7 +64,33 @@ Most people send out resumes and hope. SmartHire AI is a control room for that m
 
 </details>
 
+### 📡 Resume Radar, up close
+
+<div align="center">
+<img src="smarthire-radar.svg" width="96%" alt="Resume radar scanning a resume and filling five component score bars" />
+</div>
+
+### 🕳️ Gap Finder, up close
+
+<div align="center">
+<img src="smarthire-gaps.svg" width="96%" alt="Gap finder splitting skills into have and missing lists" />
+</div>
+
+### 💬 Co-Pilot, up close
+
+<div align="center">
+<img src="smarthire-copilot.svg" width="96%" alt="Chat window answering a question, with OpenAI and local fallback modes" />
+</div>
+
+<img src="smarthire-orbit.svg" width="100%" alt="Rocket flying past small planets" />
+
 ## ⚙️ Engine Room
+
+<div align="center">
+<img src="smarthire-stack.svg" width="92%" alt="Isometric architecture: interface, API, engines and data layers with requests flowing between them" />
+</div>
+
+<br/>
 
 ```mermaid
 flowchart LR
@@ -124,7 +150,17 @@ flowchart LR
 | 5 | **Blend** | **65% skill coverage + 35% text similarity** gives the job-fit number |
 | 6 | **Advise** | Optional LLM guidance, or a deterministic fallback when there's no key |
 
+### 🪟 Why it's a glass box
+
+<div align="center">
+<img src="smarthire-glassbox.svg" width="96%" alt="A black box versus a transparent glass box showing score ingredients" />
+</div>
+
+<br/>
+
 > 🧭 **Chef's note:** treat the result as a compass, not a verdict. These are coaching signals, not official ATS scores, and they can't promise a hiring outcome.
+
+<img src="smarthire-orbit.svg" width="100%" alt="Rocket flying past small planets" />
 
 ## 🚀 Launch Sequence
 
@@ -208,6 +244,12 @@ OPENAI_MODEL=gpt-4o-mini
 
 ## 🔒 Safety Checks
 
+<div align="center">
+<img src="smarthire-safety.svg" width="96%" alt="Checkpoint lane: a request with a JWT passes the gate, one without is turned back" />
+</div>
+
+<br/>
+
 - 🔑 JWT-based login, with protected API routes
 - 👤 Resume and chat actions are tied to the signed-in user
 - 🌱 Secrets live in environment variables, not in code
@@ -218,6 +260,12 @@ OPENAI_MODEL=gpt-4o-mini
 
 ## 🌠 Next Launches
 
+<div align="center">
+<img src="smarthire-roadmap.svg" width="96%" alt="Roadmap: six upcoming launches along a rocket route" />
+</div>
+
+<br/>
+
 - [ ] Smarter skill matching with embeddings, so related skills count too
 - [ ] Sharper, more specific resume-improvement tips
 - [ ] Pull in curated job listings
@@ -227,7 +275,7 @@ OPENAI_MODEL=gpt-4o-mini
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:6366F1,100:DB2777&height=140&section=footer&text=OPEN%20THE%20BLACK%20BOX&fontColor=ffffff&fontSize=26&fontAlignY=70" width="100%" alt="Footer: open the black box"/>
+<img src="smarthire-blackbox.svg" width="100%" alt="A black box lid lifting to release skills, gaps and fit results" />
 
 **SmartHire AI** · Built by [Syed Raqi](https://github.com/SyedRaqi) · [⭐ Star it if it helped](https://github.com/SyedRaqi/Resume-analyzer)
 
