@@ -1,100 +1,81 @@
-<!-- SMART HIRE AI | MISSION CONTROL README -->
-
 <div align="center">
 
-<img src="smarthire-banner.svg" width="100%" alt="SmartHire AI animated 3D banner: your resume, decoded" />
-
-<a href="https://github.com/SyedRaqi/Resume-analyzer">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Hiring+is+a+black+box.+Let%27s+open+it.;Your+resume+has+a+story.+We+check+if+it+gets+read.;Paste+a+job+post.+See+exactly+where+you+stand.;Stop+guessing.+Start+closing+gaps." alt="Typing animation" />
-</a>
-
-<br/>
-
-<a href="https://github.com/SyedRaqi/Resume-analyzer"><img src="https://img.shields.io/badge/SEE%20THE%20CODE-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="See the code"/></a>
-&nbsp;
-<a href="#-flight-modules"><img src="https://img.shields.io/badge/WHAT%20IT%20DOES-0891B2?style=for-the-badge&logo=rocket&logoColor=white" alt="What it does"/></a>
-&nbsp;
-<a href="#-launch-sequence"><img src="https://img.shields.io/badge/LAUNCH%20IT-DB2777?style=for-the-badge&logo=terminal&logoColor=white" alt="Launch it"/></a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/REACT-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/VITE-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
-<img src="https://img.shields.io/badge/FASTAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/SQLALCHEMY-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
-<img src="https://img.shields.io/badge/AI%20%2B%20NLP-8B5CF6?style=flat-square" alt="AI and NLP"/>
+<img src="smarthire-pro-hero.jpg" alt="SmartHire AI: a resume and a job description linked by a glowing match ring" width="100%"/>
 
 </div>
 
-<img src="smarthire-orbit.svg" width="100%" alt="Rocket flying past small planets" />
-
-## 🛰️ Mission Brief
-
-> **You can't fix what you can't see.**
-
-Most people send out resumes and hope. SmartHire AI is a control room for that moment: it reads your resume, lines it up against the job you actually want, and points at the exact skills that are missing, so every application gets a little sharper than the last.
+<img src="smarthire-pro-titlecard.svg" alt="Your resume, decoded." width="100%"/>
 
 <div align="center">
-<img src="smarthire-pipeline.svg" width="92%" alt="Animated flow: Drop it, Decode, Compare, Level up" />
+
+<img src="https://img.shields.io/badge/React-0b1038?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+<img src="https://img.shields.io/badge/TypeScript-0b1038?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Vite-0b1038?style=flat-square&logo=vite&logoColor=A78BFA" alt="Vite"/>
+<img src="https://img.shields.io/badge/FastAPI-0b1038?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Python-0b1038?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
+<img src="https://img.shields.io/badge/SQLAlchemy-0b1038?style=flat-square&logo=sqlalchemy&logoColor=EC4899" alt="SQLAlchemy"/>
+
 </div>
 
-## 🧊 Flight Modules
+<img src="smarthire-pro-h-overview.svg" alt="Overview" width="100%"/>
 
-<div align="center">
-<img src="smarthire-modules.svg" width="96%" alt="Six animated SmartHire AI flight modules" />
-</div>
+**SmartHire AI** is a full-stack career intelligence workspace for students and job seekers. It reads a resume, compares it with the job you actually want, and points at the exact skills that are missing, so each application can be a little sharper than the last.
 
-<br/>
+> **You can't fix what you can't see.** Every score in SmartHire AI shows its ingredients, so you can tell *why* a number moved.
 
-<details open>
-<summary><b>📋 Module spec sheet: what each one does and what powers it</b></summary>
+<table>
+<tr>
+<td width="33%"><img src="smarthire-pro-still-read.jpg" alt="Read: extract the text" width="100%"/></td>
+<td width="33%"><img src="smarthire-pro-still-match.jpg" alt="Match: resume against job" width="100%"/></td>
+<td width="33%"><img src="smarthire-pro-still-improve.jpg" alt="Improve: close the gaps" width="100%"/></td>
+</tr>
+</table>
 
-<br/>
+<img src="smarthire-pro-divider.svg" alt="" width="100%"/>
 
-| MODULE | WHAT YOU GET | POWERED BY |
-|---|---|---|
-| 📡 **Resume Radar** | Your PDF's text, graded in parts: skills, education, projects, experience, structure | PyMuPDF + component scoring |
-| ⚖️ **Job Fit Scale** | A match against any job post, built on skill coverage plus wording overlap | Skill overlap, TF-IDF, cosine similarity |
-| 🕳️ **Gap Finder** | Two clear lists: skills you have, skills you're missing | Curated skill vocabulary |
-| 💬 **Co-Pilot** | Career answers on demand, with or without an API key | Optional OpenAI + local fallback |
-| 🧰 **Your Hangar** | One private workspace for resumes, past analyses, matches, chats, and profile | SQLAlchemy, JWT auth |
-| 🪟 **Glass-Box Scoring** | Scores that show their ingredients, so you see *why* a number moved | Component-level breakdowns |
+<img src="smarthire-pro-h-modules.svg" alt="Modules" width="100%"/>
 
-</details>
+<img src="smarthire-pro-modules.svg" alt="Resume Radar, Job Fit Scale, Gap Finder, Co-Pilot, Workspace, Glass Box" width="100%"/>
 
-### 📡 Resume Radar, up close
+| Module | What you get | Powered by |
+| :--- | :--- | :--- |
+| **Resume Radar** | Your PDF's text, graded in parts: skills, education, projects, experience and structure | PyMuPDF, component scoring |
+| **Job Fit Scale** | A match against any job post, built on skill coverage plus wording overlap | Skill overlap, TF-IDF, cosine similarity |
+| **Gap Finder** | Two clear lists: skills you have and skills you are missing | Curated skill vocabulary |
+| **Co-Pilot** | Career answers on demand, with or without an API key | Optional OpenAI, local fallback |
+| **Workspace** | One private place for resumes, past analyses, matches, chats and profile | SQLAlchemy, JWT authentication |
+| **Glass-Box Scoring** | Scores that show their ingredients | Component-level breakdowns |
 
-<div align="center">
-<img src="smarthire-radar.svg" width="96%" alt="Resume radar scanning a resume and filling five component score bars" />
-</div>
+<img src="smarthire-pro-h-pipeline.svg" alt="Pipeline" width="100%"/>
 
-### 🕳️ Gap Finder, up close
+<img src="smarthire-pro-pipeline.svg" alt="Upload, extract, score, match, advise" width="100%"/>
 
-<div align="center">
-<img src="smarthire-gaps.svg" width="96%" alt="Gap finder splitting skills into have and missing lists" />
-</div>
+| Step | Stage | What happens |
+| :-: | :--- | :--- |
+| 1 | **Read** | PyMuPDF reads each page and joins the text content |
+| 2 | **Grade** | Component scores are blended into one overall coaching score |
+| 3 | **Spot** | A curated skill vocabulary is matched case-insensitively against resume and job text |
+| 4 | **Compare** | TF-IDF vectors and cosine similarity measure how closely the wording lines up |
+| 5 | **Blend** | 65% skill coverage plus 35% text similarity gives the job-fit number |
+| 6 | **Advise** | Optional LLM guidance, or deterministic fallback guidance when there is no key |
 
-### 💬 Co-Pilot, up close
+<img src="smarthire-pro-h-scoring.svg" alt="Scoring" width="100%"/>
 
-<div align="center">
-<img src="smarthire-copilot.svg" width="96%" alt="Chat window answering a question, with OpenAI and local fallback modes" />
-</div>
+<img src="smarthire-pro-scoring.svg" alt="Five sub-scores averaged into one overall coaching score" width="100%"/>
 
-<img src="smarthire-orbit.svg" width="100%" alt="Rocket flying past small planets" />
+<img src="smarthire-pro-blend.svg" alt="Job-fit blend: 65 percent skill coverage plus 35 percent text similarity" width="100%"/>
 
-## ⚙️ Engine Room
+The resume score averages five explicit 0 to 100 sub-scores: skills, education, projects, experience and structure. Matching and missing skills are persisted with each job match.
 
-<div align="center">
-<img src="smarthire-stack.svg" width="92%" alt="Isometric architecture: interface, API, engines and data layers with requests flowing between them" />
-</div>
+> **Treat the result as a compass, not a verdict.** These are internal coaching signals, not official ATS scores, and they cannot promise a hiring outcome.
 
-<br/>
+<img src="smarthire-pro-h-architecture.svg" alt="Architecture" width="100%"/>
+
+<img src="smarthire-pro-architecture.svg" alt="Interface, API, engines and data" width="100%"/>
 
 ```mermaid
 flowchart LR
-    U([USER]) --> UI[React + TypeScript]
+    U([User]) --> UI[React + TypeScript]
     UI --> API[FastAPI]
     API --> AUTH[Authentication]
     API --> RES[Resume Intelligence]
@@ -115,88 +96,52 @@ flowchart LR
     style DB fill:#164e63,color:#fff,stroke:#67e8f9
 ```
 
-<details>
-<summary><b>🔩 Open the parts bin: full tech stack</b></summary>
+<img src="smarthire-pro-h-stack.svg" alt="Tech stack" width="100%"/>
 
-<br/>
+<img src="smarthire-pro-stack.svg" alt="React, TypeScript, Vite, FastAPI, Python, SQLAlchemy" width="100%"/>
 
-| PART | WHAT'S INSIDE |
-|---|---|
-| Cockpit (UI) | React, TypeScript, Vite, React Router |
-| Paint job | Responsive CSS, Lucide React |
-| Brain (API) | Python, FastAPI, Pydantic |
-| Memory | SQLAlchemy, SQLite, PostgreSQL option |
-| PDF reader | PyMuPDF |
-| Matchmaking math | TF-IDF, cosine similarity, skill overlap |
-| Locks | JWT-based authentication |
-| Voice | Optional OpenAI integration and local fallback |
+| Layer | Technology |
+| :--- | :--- |
+| Interface | React, TypeScript, Vite, React Router, Lucide React, responsive CSS |
+| API | Python, FastAPI, Pydantic |
+| Data | SQLAlchemy, SQLite (default), PostgreSQL through `DATABASE_URL` |
+| PDF reading | PyMuPDF |
+| Matching | TF-IDF, cosine similarity, skill overlap |
+| Authentication | JWT |
+| Assistant | Optional OpenAI integration with a local fallback |
 
-</details>
+<img src="smarthire-pro-h-security.svg" alt="Security" width="100%"/>
 
-## 🧪 The Scoring Recipe
+<img src="smarthire-pro-security.svg" alt="A request with a JWT passes the gate; a request without a token is rejected with 401" width="100%"/>
 
-<div align="center">
-<img src="smarthire-recipe.svg" width="94%" alt="Job-fit blend: 65% skill coverage plus 35% text similarity" />
-</div>
+- JWT-based login with protected API routes.
+- Resume and chat actions are tied to the signed-in user.
+- Secrets live in environment variables, never in code, and no secrets are sent to the browser.
+- SQLite for easy local work, PostgreSQL when you need more.
+- A complete PDF upload-and-processing pipeline.
 
-### 🍳 Recipe card
+> **Before going public**, review file validation, access controls, persistent storage, CORS, token handling, rate limiting and password-reset email delivery. The reset endpoint creates expiring one-time tokens; connect it to an email provider before production use.
 
-| # | 🥄 STEP | 🧂 WHAT HAPPENS |
-|:-:|---|---|
-| 1 | **Read** | PyMuPDF pulls the text out of your PDF |
-| 2 | **Grade** | Component scores are blended into one overall coaching score |
-| 3 | **Spot** | A curated skill vocabulary is matched case-insensitively |
-| 4 | **Compare** | TF-IDF vectors and cosine similarity measure how closely the wording lines up |
-| 5 | **Blend** | **65% skill coverage + 35% text similarity** gives the job-fit number |
-| 6 | **Advise** | Optional LLM guidance, or a deterministic fallback when there's no key |
+<img src="smarthire-pro-h-quickstart.svg" alt="Quick start" width="100%"/>
 
-### 🪟 Why it's a glass box
+<img src="smarthire-pro-terminal.svg" alt="Terminal: git clone, pip install, uvicorn, npm install and npm run dev" width="100%"/>
 
-<div align="center">
-<img src="smarthire-glassbox.svg" width="96%" alt="A black box versus a transparent glass box showing score ingredients" />
-</div>
+**Prerequisites:** Python 3.11+, Node.js 20+, npm 10+, Git. Docker Desktop is optional and only needed for PostgreSQL.
 
-<br/>
-
-> 🧭 **Chef's note:** treat the result as a compass, not a verdict. These are coaching signals, not official ATS scores, and they can't promise a hiring outcome.
-
-<img src="smarthire-orbit.svg" width="100%" alt="Rocket flying past small planets" />
-
-## 🚀 Launch Sequence
-
-<div align="center">
-<img src="smarthire-launch.svg" width="92%" alt="Animated launch sequence: clone, backend, frontend, live" />
-</div>
-
-### 🧾 Pre-flight checklist
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+"/>
-<img src="https://img.shields.io/badge/NODE.JS-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 20+"/>
-<img src="https://img.shields.io/badge/NPM-10%2B-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm 10+"/>
-<img src="https://img.shields.io/badge/GIT-READY-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-
-</div>
-
-### 📍 Where everything lands
-
-| 🛰️ WHAT | 🔗 WHERE |
-|---|---|
+| What | Where |
+| :--- | :--- |
 | Backend API | `http://localhost:8000` |
-| Live API docs | `http://localhost:8000/docs` |
-| Frontend app | `http://localhost:5173` (or the URL Vite prints) |
+| Interactive API docs | `http://localhost:8000/docs` |
+| Frontend app | `http://127.0.0.1:5173` (or the URL Vite prints) |
 
-> 🧑‍🚀 **Ground control tip:** the backend and frontend each keep a terminal busy, so open two.
-
-### 🔥 Stage 1 · Ignition: get the code
+**1. Get the code**
 
 ```powershell
 git clone https://github.com/SyedRaqi/Resume-analyzer.git
 cd Resume-analyzer
 ```
 
-### ⚙️ Stage 2 · Engine burn: start the backend
+**2. Start the backend**
 
 ```powershell
 cd backend
@@ -204,14 +149,10 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 Copy-Item .env.example .env
-python -m uvicorn app.main:app --reload --port 8000
+python -m uvicorn app.main:app --host 127.0.0.1 --reload --port 8000
 ```
 
-✅ Success looks like: the API docs open at http://localhost:8000/docs.
-
-### 🌠 Stage 3 · Ascent: start the frontend
-
-In a **second terminal**, from the project root:
+**3. Start the frontend** in a second terminal:
 
 ```powershell
 cd frontend
@@ -220,65 +161,114 @@ Copy-Item .env.example .env
 npm run dev
 ```
 
-If the app needs an API address, set it using the variable named in `frontend/.env.example`.
+Open the URL Vite prints, upload a text-based PDF resume, and you are running.
 
-### 🛸 Stage 4 · Orbit: open it
+<img src="smarthire-pro-h-config.svg" alt="Configuration" width="100%"/>
 
-Visit the URL Vite prints, usually http://localhost:5173. Upload a resume and you're flying.
-
-<details>
-<summary><b>🤖 Bonus stage: wake the Co-Pilot (optional)</b></summary>
-
-<br/>
-
-Drop your own key into `backend/.env` to switch on the OpenAI-powered assistant:
+OpenAI is optional. Add a key to `backend/.env` to enable the LLM-backed assistant:
 
 ```dotenv
 OPENAI_API_KEY=your-api-key
 OPENAI_MODEL=gpt-4o-mini
 ```
 
-🔐 Keys stay on your machine. Never commit secrets or `.env` files to GitHub.
+Without a key, the app uses a clearly bounded local fallback for common career questions. The chat keeps the last ten messages for context when a key is configured. Never commit secrets or `.env` files.
+
+<details>
+<summary><b>PostgreSQL option</b></summary>
+
+<br/>
+
+```powershell
+docker compose up -d postgres
+```
+
+Set this in `backend/.env` before starting the API:
+
+```dotenv
+DATABASE_URL=postgresql+psycopg://smarthire:smarthire_dev@localhost:5432/smarthire
+```
+
+Install the driver when using that URL:
+
+```powershell
+pip install "psycopg[binary]"
+```
 
 </details>
 
-## 🔒 Safety Checks
+<img src="smarthire-pro-h-api.svg" alt="API" width="100%"/>
 
-<div align="center">
-<img src="smarthire-safety.svg" width="96%" alt="Checkpoint lane: a request with a JWT passes the gate, one without is turned back" />
-</div>
+| Area | Endpoints |
+| :--- | :--- |
+| Auth | `POST /api/auth/register`, `POST /api/auth/login`, `GET /api/auth/me`, `POST /api/auth/logout` |
+| Password reset | `POST /api/auth/forgot-password`, `POST /api/auth/reset-password` |
+| Resumes | `POST /api/resumes/upload`, `GET /api/resumes`, `DELETE /api/resumes/{id}` |
+| Analysis | `POST /api/resumes/{id}/analyze`, `GET /api/resumes/{id}/analysis` |
+| Job matching | `POST /api/jobs/match`, `GET /api/jobs/history` |
+| Chat | `POST /api/chat`, `GET /api/chat/conversations`, `GET /api/chat/conversations/{id}`, `DELETE /api/chat/conversations/{id}` |
+| Profile | `GET /api/users/profile`, `PUT /api/users/profile` |
+
+<details>
+<summary><b>Project structure</b></summary>
+
+```text
+backend/
+  app/
+    main.py              API routes and application startup
+    database.py          Settings, engine, sessions
+    models.py            SQLAlchemy schema
+    schemas.py           API contracts
+    security.py          Password hashing and JWT helpers
+    deps.py              Authenticated dependency
+    services/
+      resume_service.py  PDF extraction, scoring, matching
+      chatbot_service.py LLM integration and fallback responses
+frontend/
+  src/
+    App.tsx              Routes and product screens
+    styles.css           Responsive product UI
+    lib/api.ts           Authenticated API client
+    components/Logo.tsx  Shared brand component
+uploads/
+docker-compose.yml
+```
+
+</details>
+
+<details>
+<summary><b>Testing and verification</b></summary>
 
 <br/>
 
-- 🔑 JWT-based login, with protected API routes
-- 👤 Resume and chat actions are tied to the signed-in user
-- 🌱 Secrets live in environment variables, not in code
-- 🗄️ SQLite for easy local work, PostgreSQL when you need more
-- 📑 A complete PDF upload-and-processing pipeline
+```powershell
+# Backend syntax check
+python -m compileall backend\app
 
-> ⚠️ Before going public, double-check file validation, access controls, persistent storage, CORS, token handling, rate limiting, and password-reset email delivery.
+# Frontend typecheck and production bundle
+cd frontend
+npm run build
+```
 
-## 🌠 Next Launches
+For a manual smoke test: register, upload a text-based PDF, open the analysis, open the improvement page and print or export it as PDF, paste a job description and run a match, update the profile, request a password reset, then send a message in the SmartHire Assistant.
 
-<div align="center">
-<img src="smarthire-roadmap.svg" width="96%" alt="Roadmap: six upcoming launches along a rocket route" />
-</div>
+</details>
 
-<br/>
+<img src="smarthire-pro-h-roadmap.svg" alt="Roadmap" width="100%"/>
+
+<img src="smarthire-pro-roadmap.svg" alt="Roadmap: embeddings, sharper tips, job listings, background jobs, tests and CI, monitoring" width="100%"/>
 
 - [ ] Smarter skill matching with embeddings, so related skills count too
 - [ ] Sharper, more specific resume-improvement tips
-- [ ] Pull in curated job listings
-- [ ] Background processing and durable file storage
+- [ ] Curated job listings, rather than treating pasted descriptions as live listings
+- [ ] Background processing, durable file storage and Alembic migrations
 - [ ] Automated tests and continuous integration
-- [ ] Production monitoring and deployment hardening
+- [ ] Production monitoring, rate limiting and deployment hardening
+
+<img src="smarthire-pro-footer.svg" alt="SmartHire AI. Your resume, decoded. Built by Syed Raqi." width="100%"/>
 
 <div align="center">
 
-<img src="smarthire-blackbox.svg" width="100%" alt="A black box lid lifting to release skills, gaps and fit results" />
-
-**SmartHire AI** · Built by [Syed Raqi](https://github.com/SyedRaqi) · [⭐ Star it if it helped](https://github.com/SyedRaqi/Resume-analyzer)
-
-<sub>See your profile clearly. Know your gaps. Apply with confidence.</sub>
+<sub>See your profile clearly. Know your gaps. Apply with confidence. &middot; <a href="https://github.com/SyedRaqi/Resume-analyzer">Star the repo if it helped</a></sub>
 
 </div>
